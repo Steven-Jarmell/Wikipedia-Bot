@@ -13,8 +13,14 @@ I am not personally running off this server, so the only way to run it is locall
 3. Open command line and type `git clone https://github.com/Steven-Jarmell/Wikipedia-Bot.git`
 4. Use cd to navigate into the folder and run this command to download the wikipedia python package: `pip install -r requirements.txt`
 5. Put your token into the bottom of wiki.py where it says **YOUR TOKEN HERE**  
-If you do not know your discord token, watch this video [here](https://www.youtube.com/watch?v=YEgFvgg7ZPI) 
+- If you do not know your discord token, watch this video [here](https://www.youtube.com/watch?v=YEgFvgg7ZPI) 
 6. Run the bot through the command line by typing `python wiki.py`
+
+## Commands
+* `_wiki-commands` : Displays the commands on the discord server
+* `_wiki (input)` : Produces the first two sentences of whatever you enter in
+* `_wiki-setlang (input)` : Sets language to whatever you choose
+* `_wiki-random` : Produces a random wikipedia page and a summary of it
 
 ## Resource Used
 https://wikipedia.readthedocs.io/en/latest/code.html
