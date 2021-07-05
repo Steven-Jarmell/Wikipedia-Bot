@@ -28,7 +28,7 @@ class MyClient(discord.Client):
             
             except:
                 await message.channel.send('Please enter a valid language abbreviation\n' +
-                                           'For all language abbreviations, go to {PUT GITHUB LINK}')
+                                           'For all language abbreviations, go to https://git.io/JciVp')
 
         elif message.content == '_wiki-random': # Displays a random article
             while True: # On the off chance an exception occurs such as a disambiguation error
@@ -69,5 +69,3 @@ class MyClient(discord.Client):
 client = MyClient() # Creates Client
 
 client.run('YOUR TOKEN HERE')
-
-# https://wikipedia.readthedocs.io/en/latest/code.html
