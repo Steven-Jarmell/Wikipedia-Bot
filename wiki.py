@@ -68,4 +68,4 @@ class MyClient(discord.Client):
 
 client = MyClient() # Creates Client
 
-client.run('ODYwNTMzNzUwNDc4OTI5OTUw.YN8ogg.Iuyj9bXRJYC-6luoo9VNcJOLClc')
+client.run('YOUR TOKEN HERE')
