@@ -15,7 +15,7 @@ class MyClient(discord.Client):
         
         if message.content == '_wiki-commands': # Command list for user
             await message.channel.send('_wiki (input) : Produces the first two sentences of whatever you enter in \n' +
-                                       '_wiki-setlang (input) : Sets language to whatever you choose' +
+                                       '_wiki-setlang (input) : Sets language to whatever you choose \n' +
                                        '_wiki-random : Produces a random wikipedia page and a summary of it'
                                         )
 
@@ -68,4 +68,4 @@ class MyClient(discord.Client):
 
 client = MyClient() # Creates Client
 
-client.run('YOUR TOKEN HERE')
+client.run('ODYwNTMzNzUwNDc4OTI5OTUw.YN8ogg.Iuyj9bXRJYC-6luoo9VNcJOLClc')
